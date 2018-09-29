@@ -33,7 +33,7 @@ class SinaInfoSpider(scrapy.Spider):
 
 
 
-    #解析第二层的方法
+    #解析第二层url的方法
     def parse_second(self,response):
         #得到帖子的链接
         # print("parse_second--response.url====", response.url)
